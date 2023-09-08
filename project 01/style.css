@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     box-sizing: border-box;
     margin: 0;
@@ -58,65 +57,4 @@ p {
     padding-top: 28px;
     margin-top: 10px;
     font-weight: 800;
-=======
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0%;
-
-}
-body {
-
-    background-image: url("subway.jpg");
-    background-size: fixed;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    background-size:70%;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    padding-top: 20px;
- 
-}
-
-h1 {
-    font-weight: 800;
-    font-size: 2.1rem;
-    padding: 20px;
-    margin-top: 15px;
-}
-
-
-#increment-btn {
-
-    border: 5px solid black;
-    background-color: rgb(143, 7, 7);
-    color: antiquewhite;
-    font-size: 1.4rem;
-    border-radius: 12px;
-    font-weight: bold;
-    width: 250px;
-    height: 45px;
-    margin: 40px;
-    
-}
-
-#save-btn {
-    border: 5px solid black;
-    background-color: rgb(37, 151, 8);
-    color: antiquewhite;
-    font-size: 1.4rem;
-    border-radius: 12px;
-    font-weight: bold;
-    width: 250px;
-    height: 45px;
-}
-
-p {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2.1rem;
-    padding-top: 28px;
-    margin-top: 10px;
-    font-weight: 800;
->>>>>>> c929a8c (first commit)
 }
