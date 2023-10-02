@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Darumadrop+One&family=Josefin+Sans:wght@300;500;600&family=Merriweather:wght@400;900&family=Playfair+Display:ital,wght@1,700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px solid black;
+    min-height: 100vh;
+    background: #a4bdb7;
+    font-family: 'Merriweather', serif;
+}
+.box{
+
+    width: 400px;
+    background:  #ededed;
+    padding: 20px;
+    border-radius: 25px;
+    height: fit-content;
+    text-align: center;
+}
+
+.first-box {
+    margin-top: 10px;
+}
+
+.head-part{
+    margin: 15px 10px;
+}
+
+.profile-img img{
+    height: auto;
+    width: 150px;
+   border-radius: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+
+
+}
+ 
+.profile-info{
+    margin: 15px;
+}
+
+#profile-name{
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+#designation{
+    font-weight:500;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: gray;
+    margin-top: -2px
+}
+
+.content{
+    
+    color: gray;
+    margin: 10px 20px 30px;
+    letter-spacing: 0.90px;
+    font-size: 0.7em;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 30px;
+    padding: 10px 5px;
+    font-size: 1.5em;
+}
+
+.icons button{
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.2em;
+}
+
+ion-icon:hover{
+    color: #58a497;
+    transition: 0.5s;
+}
+
+.contact{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+.contact button{
+    
+    cursor: pointer;
+    font-size: 1.1em;
+    border-radius: 10px;
+    width: 174px;
+    height: 55px;
+    font-weight: 900;
+}
+
+.contact .message{
+    background: #ededed;
+    border: 2px solid #000;
+}
+
+.contact .connect{
+    background-color: #000;
+    color:  #ededed;
+    border: none;
+}
+
+.message:hover{
+    background:#58a497;
+    letter-spacing: 1px;
+    transition: 0.7s;
+}
+
+.connect:hover{
+    letter-spacing: 1px;
+    transition: 0.7s;
+    color: #58a497;
+}
